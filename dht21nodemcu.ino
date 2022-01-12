@@ -28,7 +28,7 @@ Check the port, you are ready!
 #define LEDDatasent D2     //DataSent Blue
 
  
-uint8_t DHTPIN = D8;      //Pin where the your DHT is connected
+uint8_t DHTPIN = 8;      //Pin where the your DHT is connected
 DHT dht(DHTPIN, DHT21);   //Write your DHT type here if you are using DHT22 or DHT11 change accordingly
 
 WiFiClient client;
